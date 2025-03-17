@@ -1,102 +1,75 @@
-li {
-  list-style: none;
+header h1 {
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+nav a {
+  margin: 0px 24px;
+}
+
+.navbar-nav a:hover {
+  color: white;
+}
+
+.profile-picture {
+  margin-bottom: 8px;
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border: 2px solid blueviolet;
+  border-radius: 64px;
+}
+
+.container {
+  padding: 8px;
+}
+
+label {
+  margin: 16px;
+  font-weight: bold;
+  font-size: 24px;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 body {
+  width: auto;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  background: white;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
-}
-.skill {
-  list-style: circle;
-  font-size: 24px;
-}
-
-.edu p {
-  font-size: 32px;
-  margin-bottom: -12px;
-}
-
-.contact {
-  font-size: 24px;
-}
-
-.about ul {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 16px;
-  grid-row-gap: px;
-}
-
-.info {
-  font-size: 30px;
-  margin: 27px 4px;
-  justify-content: space-between;
-}
-
-.about ul li label {
-  margin: 0px 72px;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.about ul li img {
-  height: 320px;
-  width: 320px;
-  border-radius: 64px;
-  border: 2px solid blueviolet;
-  object-fit: cover;
-  margin: 16px;
-}
-
-header {
-  background: blueviolet;
-}
-header h1 {
-  text-align: center;
-  font-size: 36px;
-}
-nav {
-  text-align: center;
-  color: white;
-}
-nav a {
-  margin: 0 24px;
-  color: white;
-  text-decoration: none;
   font-size: 18px;
 }
-nav a:hover {
+
+header,
+footer {
+  margin: 0px;
+  padding: 24px 16px;
+  background: blueviolet;
   color: black;
-}
-.hero ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.hero img {
-  width: 320px;
-  height: 320px;
-  object-fit: cover;
-  margin: 16px;
-  border: 2px solid blueviolet;
-  border-radius: 64px;
-}
-.hero ul li label {
-  margin: 0px 72px;
-  font-size: 20px;
-  font-weight: bold;
-}
-.hero ul li p {
-  font-size: 24px;
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 0px;
   text-align: center;
-  background-color: blueviolet;
+}
+
+section {
+  margin: 32px 0px 64px;
+}
+
+a {
+  text-decoration: none;
   color: black;
-  font-size: 20px;
-  padding: 16px 0 0;
+}
+li {
+  list-style: none;
 }
